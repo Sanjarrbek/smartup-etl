@@ -1,6 +1,6 @@
 import os
 from config import OUTPUT_DIR
-from pipelines import products
+from pipelines import products, customers, orders
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -9,3 +9,5 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 #   2. Shu yerga import qilib, run() ni chaqiring
 
 products.run()
+customers.run()
+orders.run()

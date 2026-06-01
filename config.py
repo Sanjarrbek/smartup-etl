@@ -9,10 +9,11 @@ TIMEOUT      = 30
 ENDPOINTS = {
     "inventory":      "https://smartup.online/b/anor/mxsx/mr/inventory$export",
     "natural_person": "https://smartup.online/b/anor/mxsx/mr/natural_person$export",
+    "orders": "https://smartup.online/b/trade/txs/tdeal/order$export",
 }
 
 # ── Database ──────────────────────────────────────────────────────────────────
-DB_URL = "postgresql://postgres:0121@localhost:5432/smartup"
+DB_URL = "postgresql://postgres:40089@localhost:5432/smartup"
 
 # ── Output ────────────────────────────────────────────────────────────────────
 OUTPUT_DIR = "CleanedData"
