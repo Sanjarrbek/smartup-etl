@@ -11,6 +11,7 @@ x-airflow-common: &airflow-common
     AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth'
     _PIP_ADDITIONAL_REQUIREMENTS: "openpyxl sqlalchemy psycopg2-binary pandas requests"
     AIRFLOW__LOG_RETENTION_DAYS: '7'  #Bu 7 kundan eski loglarni avtomatik o'chiradi. Xotira to'lib qolmaydi.Ishlayveradi
+    DB_URL: "postgresql://postgres:40089@host.docker.internal:5432/smartup"
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs

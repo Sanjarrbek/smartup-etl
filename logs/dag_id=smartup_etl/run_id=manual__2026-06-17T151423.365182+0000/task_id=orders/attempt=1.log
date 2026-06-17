@@ -1,0 +1,37 @@
+[2026-06-17T15:15:21.292+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-06-17T15:15:21.349+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: smartup_etl.orders manual__2026-06-17T15:14:23.365182+00:00 [queued]>
+[2026-06-17T15:15:21.364+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: smartup_etl.orders manual__2026-06-17T15:14:23.365182+00:00 [queued]>
+[2026-06-17T15:15:21.366+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-06-17T15:15:21.389+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): orders> on 2026-06-17 15:14:23.365182+00:00
+[2026-06-17T15:15:21.403+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=255) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-17T15:15:21.401+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'smartup_etl', 'orders', 'manual__2026-06-17T15:14:23.365182+00:00', '--job-id', '78', '--raw', '--subdir', 'DAGS_FOLDER/smartup_etl_dag.py', '--cfg-path', '/tmp/tmp1_gca555']
+[2026-06-17T15:15:21.405+0000] {standard_task_runner.py:63} INFO - Started process 257 to run task
+[2026-06-17T15:15:21.406+0000] {standard_task_runner.py:91} INFO - Job 78: Subtask orders
+[2026-06-17T15:15:21.496+0000] {task_command.py:426} INFO - Running <TaskInstance: smartup_etl.orders manual__2026-06-17T15:14:23.365182+00:00 [running]> on host 4f6ec9c5bd1d
+[2026-06-17T15:15:21.621+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='smartup-etl' AIRFLOW_CTX_DAG_ID='smartup_etl' AIRFLOW_CTX_TASK_ID='orders' AIRFLOW_CTX_EXECUTION_DATE='2026-06-17T15:14:23.365182+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-17T15:14:23.365182+00:00'
+[2026-06-17T15:15:21.623+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-06-17T15:15:22.071+0000] {logging_mixin.py:188} INFO - === Orders pipeline ===
+[2026-06-17T15:15:24.371+0000] {logging_mixin.py:188} INFO - [OK] 6 ta yozuv olindi
+[2026-06-17T15:15:24.387+0000] {logging_mixin.py:188} WARNING - /opt/***/pipelines/orders.py:21 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2026-06-17T15:15:24.391+0000] {logging_mixin.py:188} WARNING - /opt/***/pipelines/orders.py:22 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2026-06-17T15:15:24.395+0000] {logging_mixin.py:188} WARNING - /opt/***/pipelines/orders.py:23 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2026-06-17T15:15:24.687+0000] {logging_mixin.py:188} INFO - [DB] 'orders' — 6 ta qator yuklandi.
+[2026-06-17T15:15:24.688+0000] {logging_mixin.py:188} INFO - === Orders pipeline tugadi ===
+[2026-06-17T15:15:24.690+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-06-17T15:15:24.692+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-06-17T15:15:24.704+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=smartup_etl, task_id=orders, run_id=manual__2026-06-17T15:14:23.365182+00:00, execution_date=20260617T151423, start_date=20260617T151521, end_date=20260617T151524
+[2026-06-17T15:15:24.762+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-06-17T15:15:24.803+0000] {taskinstance.py:3498} INFO - 4 downstream tasks scheduled from follow-on schedule check
+[2026-06-17T15:15:24.809+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
