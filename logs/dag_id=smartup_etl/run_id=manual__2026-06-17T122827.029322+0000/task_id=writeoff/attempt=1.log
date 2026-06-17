@@ -1,0 +1,37 @@
+[2026-06-17T12:29:59.908+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-06-17T12:29:59.939+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: smartup_etl.writeoff manual__2026-06-17T12:28:27.029322+00:00 [queued]>
+[2026-06-17T12:29:59.950+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: smartup_etl.writeoff manual__2026-06-17T12:28:27.029322+00:00 [queued]>
+[2026-06-17T12:29:59.951+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-06-17T12:29:59.970+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): writeoff> on 2026-06-17 12:28:27.029322+00:00
+[2026-06-17T12:29:59.981+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=277) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-17T12:29:59.981+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'smartup_etl', 'writeoff', 'manual__2026-06-17T12:28:27.029322+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/smartup_etl_dag.py', '--cfg-path', '/tmp/tmp67bw0q98']
+[2026-06-17T12:29:59.983+0000] {standard_task_runner.py:63} INFO - Started process 285 to run task
+[2026-06-17T12:29:59.984+0000] {standard_task_runner.py:91} INFO - Job 65: Subtask writeoff
+[2026-06-17T12:30:00.087+0000] {task_command.py:426} INFO - Running <TaskInstance: smartup_etl.writeoff manual__2026-06-17T12:28:27.029322+00:00 [running]> on host bda5cb736697
+[2026-06-17T12:30:00.256+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='smartup-etl' AIRFLOW_CTX_DAG_ID='smartup_etl' AIRFLOW_CTX_TASK_ID='writeoff' AIRFLOW_CTX_EXECUTION_DATE='2026-06-17T12:28:27.029322+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-17T12:28:27.029322+00:00'
+[2026-06-17T12:30:00.263+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-06-17T12:30:00.562+0000] {logging_mixin.py:188} INFO - === Writeoff pipeline ===
+[2026-06-17T12:30:02.610+0000] {logging_mixin.py:188} INFO - [OK] 1 ta yozuv olindi
+[2026-06-17T12:30:02.633+0000] {logging_mixin.py:188} WARNING - /opt/***/pipelines/writeoff.py:21 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2026-06-17T12:30:02.640+0000] {logging_mixin.py:188} WARNING - /opt/***/pipelines/writeoff.py:22 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2026-06-17T12:30:02.647+0000] {logging_mixin.py:188} WARNING - /opt/***/pipelines/writeoff.py:23 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2026-06-17T12:30:02.992+0000] {logging_mixin.py:188} INFO - [DB] 'writeoff' — 1 ta qator yuklandi.
+[2026-06-17T12:30:03.101+0000] {logging_mixin.py:188} INFO - [DB] 'writeoff_items' — 1 ta qator yuklandi.
+[2026-06-17T12:30:03.101+0000] {logging_mixin.py:188} INFO - === Writeoff pipeline tugadi ===
+[2026-06-17T12:30:03.103+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-06-17T12:30:03.105+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-06-17T12:30:03.121+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=smartup_etl, task_id=writeoff, run_id=manual__2026-06-17T12:28:27.029322+00:00, execution_date=20260617T122827, start_date=20260617T122959, end_date=20260617T123003
+[2026-06-17T12:30:03.180+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-06-17T12:30:03.200+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

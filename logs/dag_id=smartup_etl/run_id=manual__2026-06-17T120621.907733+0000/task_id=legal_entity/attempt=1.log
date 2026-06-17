@@ -1,0 +1,25 @@
+[2026-06-17T12:06:26.166+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-06-17T12:06:26.333+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: smartup_etl.legal_entity manual__2026-06-17T12:06:21.907733+00:00 [queued]>
+[2026-06-17T12:06:26.369+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: smartup_etl.legal_entity manual__2026-06-17T12:06:21.907733+00:00 [queued]>
+[2026-06-17T12:06:26.370+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-06-17T12:06:26.434+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): legal_entity> on 2026-06-17 12:06:21.907733+00:00
+[2026-06-17T12:06:26.560+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=305) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-17T12:06:26.588+0000] {standard_task_runner.py:63} INFO - Started process 317 to run task
+[2026-06-17T12:06:26.553+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'smartup_etl', 'legal_entity', 'manual__2026-06-17T12:06:21.907733+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/smartup_etl_dag.py', '--cfg-path', '/tmp/tmpdok5j8k4']
+[2026-06-17T12:06:26.594+0000] {standard_task_runner.py:91} INFO - Job 46: Subtask legal_entity
+[2026-06-17T12:06:27.212+0000] {task_command.py:426} INFO - Running <TaskInstance: smartup_etl.legal_entity manual__2026-06-17T12:06:21.907733+00:00 [running]> on host a304f74f47f7
+[2026-06-17T12:06:27.547+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='smartup-etl' AIRFLOW_CTX_DAG_ID='smartup_etl' AIRFLOW_CTX_TASK_ID='legal_entity' AIRFLOW_CTX_EXECUTION_DATE='2026-06-17T12:06:21.907733+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-17T12:06:21.907733+00:00'
+[2026-06-17T12:06:27.552+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-06-17T12:06:30.670+0000] {logging_mixin.py:188} INFO - === Legal Entity pipeline ===
+[2026-06-17T12:06:30.676+0000] {logging_mixin.py:188} INFO - [FETCH] https://smartup.online/b/anor/mxsx/mr/legal_person$export
+[2026-06-17T12:07:04.598+0000] {logging_mixin.py:188} INFO - [OK] 31846 ta yozuv olindi
+[2026-06-17T12:07:15.790+0000] {logging_mixin.py:188} INFO - [DB] 'legal_entity' — 31846 ta qator yuklandi.
+[2026-06-17T12:07:16.279+0000] {logging_mixin.py:188} INFO - [DB] 'legal_entity_groups' — 38642 ta qator yuklandi.
+[2026-06-17T12:07:16.396+0000] {logging_mixin.py:188} INFO - [DB] 'legal_entity_banks' — 285 ta qator yuklandi.
+[2026-06-17T12:07:16.397+0000] {logging_mixin.py:188} INFO - === Legal Entity pipeline tugadi ===
+[2026-06-17T12:07:16.415+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-06-17T12:07:16.416+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-06-17T12:07:16.429+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=smartup_etl, task_id=legal_entity, run_id=manual__2026-06-17T12:06:21.907733+00:00, execution_date=20260617T120621, start_date=20260617T120626, end_date=20260617T120716
+[2026-06-17T12:07:16.485+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-06-17T12:07:16.531+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-06-17T12:07:16.534+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

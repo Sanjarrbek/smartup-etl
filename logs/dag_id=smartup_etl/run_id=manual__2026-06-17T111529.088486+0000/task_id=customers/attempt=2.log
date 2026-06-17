@@ -1,0 +1,55 @@
+[2026-06-17T11:20:44.086+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-06-17T11:20:44.109+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: smartup_etl.customers manual__2026-06-17T11:15:29.088486+00:00 [queued]>
+[2026-06-17T11:20:44.115+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: smartup_etl.customers manual__2026-06-17T11:15:29.088486+00:00 [queued]>
+[2026-06-17T11:20:44.115+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2026-06-17T11:20:44.127+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): customers> on 2026-06-17 11:15:29.088486+00:00
+[2026-06-17T11:20:44.135+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=393) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-17T11:20:44.135+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'smartup_etl', 'customers', 'manual__2026-06-17T11:15:29.088486+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/smartup_etl_dag.py', '--cfg-path', '/tmp/tmpal4y9xqg']
+[2026-06-17T11:20:44.137+0000] {standard_task_runner.py:63} INFO - Started process 395 to run task
+[2026-06-17T11:20:44.137+0000] {standard_task_runner.py:91} INFO - Job 30: Subtask customers
+[2026-06-17T11:20:44.201+0000] {task_command.py:426} INFO - Running <TaskInstance: smartup_etl.customers manual__2026-06-17T11:15:29.088486+00:00 [running]> on host 0bb950afe98a
+[2026-06-17T11:20:44.266+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='smartup-etl' AIRFLOW_CTX_DAG_ID='smartup_etl' AIRFLOW_CTX_TASK_ID='customers' AIRFLOW_CTX_EXECUTION_DATE='2026-06-17T11:15:29.088486+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-17T11:15:29.088486+00:00'
+[2026-06-17T11:20:44.267+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-06-17T11:20:44.278+0000] {logging_mixin.py:188} INFO - === Customers pipeline ===
+[2026-06-17T11:20:44.280+0000] {logging_mixin.py:188} INFO - [FETCH] https://smartup.online/b/anor/mxsx/mr/natural_person$export
+[2026-06-17T11:20:48.775+0000] {logging_mixin.py:188} INFO - [OK] 1112 ta yozuv olindi
+[2026-06-17T11:20:48.877+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-06-17T11:20:48.878+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/pipelines/customers.py", line 43, in run
+    customers.to_excel(os.path.join(OUTPUT_DIR, "customers.xlsx"), index=False)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 2345, in to_excel
+    formatter.write(
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/excel.py", line 946, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/excel/_openpyxl.py", line 61, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/excel/_base.py", line 1263, in __init__
+    self._handles = get_handle(
+                    ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'CleanedData'
+[2026-06-17T11:20:48.903+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=smartup_etl, task_id=customers, run_id=manual__2026-06-17T11:15:29.088486+00:00, execution_date=20260617T111529, start_date=20260617T112044, end_date=20260617T112048
+[2026-06-17T11:20:48.921+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 30 for task customers (Cannot save file into a non-existent directory: 'CleanedData'; 395)
+[2026-06-17T11:20:48.982+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-06-17T11:20:49.025+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-17T11:20:49.030+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
