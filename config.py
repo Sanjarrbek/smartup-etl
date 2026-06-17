@@ -24,9 +24,11 @@ ENDPOINTS = {
 
 # ── Database ──────────────────────────────────────────────────────────────────
 # DB_URL = "postgresql://postgres:40089@localhost:5432/smartup"
-
 import os
-DB_URL = os.getenv("DB_URL", "postgresql://postgres:40089@host.docker.internal:5432/smartup")
+DB_URL = os.getenv("DB_URL", "postgresql://postgres:40089@localhost:5432/smartup")
+
+# import os
+# DB_URL = os.getenv("DB_URL", "postgresql://postgres:40089@host.docker.internal:5432/smartup")
 
 # ── Output ────────────────────────────────────────────────────────────────────
 OUTPUT_DIR = "CleanedData"

@@ -1860,3 +1860,521 @@
 [2026-06-17T12:37:32.670+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:37:32.670+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-06-17T12:37:32.689+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:37:32.689+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
 [2026-06-17T12:37:32.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.347 seconds
+[2026-06-17T12:38:03.033+0000] {processor.py:161} INFO - Started process (PID=387) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:38:03.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:38:03.036+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:38:03.036+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:38:03.409+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:38:03.442+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:38:03.442+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:38:03.467+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:38:03.467+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:38:03.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.467 seconds
+[2026-06-17T12:38:33.827+0000] {processor.py:161} INFO - Started process (PID=393) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:38:33.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:38:33.831+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:38:33.830+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:38:34.165+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:38:34.193+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:38:34.193+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:38:34.214+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:38:34.214+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:38:34.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.414 seconds
+[2026-06-17T12:39:04.383+0000] {processor.py:161} INFO - Started process (PID=399) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:39:04.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:39:04.385+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:39:04.385+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:39:04.706+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:39:04.729+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:39:04.729+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:39:04.746+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:39:04.746+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:39:04.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.386 seconds
+[2026-06-17T12:39:34.892+0000] {processor.py:161} INFO - Started process (PID=405) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:39:34.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:39:34.895+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:39:34.895+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:39:35.224+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:39:35.249+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:39:35.249+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:39:35.267+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:39:35.267+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:39:35.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.536 seconds
+[2026-06-17T12:40:05.734+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:40:05.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:40:05.736+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:40:05.736+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:40:06.132+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:40:06.172+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:40:06.171+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:40:06.312+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:40:06.312+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:40:06.362+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.632 seconds
+[2026-06-17T12:40:36.589+0000] {processor.py:161} INFO - Started process (PID=417) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:40:36.590+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:40:36.592+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:40:36.591+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:40:36.916+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:40:36.942+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:40:36.941+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:40:37.103+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:40:37.103+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:40:37.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.537 seconds
+[2026-06-17T12:41:07.400+0000] {processor.py:161} INFO - Started process (PID=423) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:41:07.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:41:07.404+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:41:07.403+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:41:07.668+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:41:07.694+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:41:07.693+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:41:07.711+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:41:07.710+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:41:07.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.331 seconds
+[2026-06-17T12:41:38.013+0000] {processor.py:161} INFO - Started process (PID=429) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:41:38.014+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:41:38.016+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:41:38.015+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:41:38.405+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:41:38.428+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:41:38.427+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:41:38.445+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:41:38.445+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:41:38.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.457 seconds
+[2026-06-17T12:42:08.806+0000] {processor.py:161} INFO - Started process (PID=435) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:42:08.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:42:08.813+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:42:08.813+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:42:09.149+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:42:09.175+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:42:09.174+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:42:09.194+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:42:09.194+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:42:09.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.421 seconds
+[2026-06-17T12:42:39.518+0000] {processor.py:161} INFO - Started process (PID=441) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:42:39.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:42:39.521+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:42:39.521+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:42:39.853+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:42:39.884+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:42:39.883+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:42:39.905+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:42:39.904+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:42:39.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.414 seconds
+[2026-06-17T12:43:10.207+0000] {processor.py:161} INFO - Started process (PID=447) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:43:10.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:43:10.209+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:43:10.209+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:43:10.484+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:43:10.515+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:43:10.515+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:43:10.534+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:43:10.534+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:43:10.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.523 seconds
+[2026-06-17T12:43:41.060+0000] {processor.py:161} INFO - Started process (PID=453) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:43:41.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:43:41.063+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:43:41.062+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:43:41.342+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:43:41.366+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:43:41.366+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:43:41.531+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:43:41.531+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:43:41.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.493 seconds
+[2026-06-17T12:44:11.768+0000] {processor.py:161} INFO - Started process (PID=459) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:44:11.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:44:11.770+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:44:11.770+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:44:12.041+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:44:12.065+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:44:12.065+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:44:12.082+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:44:12.082+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:44:12.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.336 seconds
+[2026-06-17T12:44:42.427+0000] {processor.py:161} INFO - Started process (PID=465) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:44:42.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:44:42.430+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:44:42.430+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:44:42.709+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:44:42.732+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:44:42.731+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:44:42.748+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:44:42.748+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:44:42.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.341 seconds
+[2026-06-17T12:45:13.032+0000] {processor.py:161} INFO - Started process (PID=471) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:45:13.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:45:13.035+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:45:13.035+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:45:13.298+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:45:13.322+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:45:13.322+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:45:13.340+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:45:13.340+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:45:13.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.329 seconds
+[2026-06-17T12:45:43.647+0000] {processor.py:161} INFO - Started process (PID=477) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:45:43.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:45:43.650+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:45:43.650+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:45:43.928+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:45:43.953+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:45:43.952+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:45:43.972+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:45:43.972+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:45:44.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.483 seconds
+[2026-06-17T12:46:14.448+0000] {processor.py:161} INFO - Started process (PID=483) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:46:14.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:46:14.450+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:46:14.450+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:46:14.718+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:46:14.742+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:46:14.742+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:46:14.896+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:46:14.896+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:46:14.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.477 seconds
+[2026-06-17T12:46:45.176+0000] {processor.py:161} INFO - Started process (PID=489) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:46:45.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:46:45.179+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:46:45.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:46:45.465+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:46:45.487+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:46:45.487+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:46:45.623+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:46:45.623+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:46:45.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.472 seconds
+[2026-06-17T12:47:15.960+0000] {processor.py:161} INFO - Started process (PID=495) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:47:15.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:47:15.963+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:47:15.963+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:47:16.326+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:47:16.372+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:47:16.371+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:47:16.405+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:47:16.404+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:47:16.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.477 seconds
+[2026-06-17T12:47:46.777+0000] {processor.py:161} INFO - Started process (PID=501) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:47:46.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:47:46.781+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:47:46.781+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:47:47.199+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:47:47.224+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:47:47.224+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:47:47.248+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:47:47.247+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:47:47.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.504 seconds
+[2026-06-17T12:48:17.575+0000] {processor.py:161} INFO - Started process (PID=507) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:48:17.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:48:17.578+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:48:17.577+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:48:17.865+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:48:17.888+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:48:17.888+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:48:17.906+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:48:17.906+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:48:17.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.351 seconds
+[2026-06-17T12:49:18.487+0000] {processor.py:161} INFO - Started process (PID=513) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:49:18.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:49:18.503+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:49:18.502+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:49:19.339+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:49:19.410+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:49:19.409+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:49:19.482+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:49:19.481+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:49:19.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 1.310 seconds
+[2026-06-17T12:49:50.068+0000] {processor.py:161} INFO - Started process (PID=519) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:49:50.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:49:50.071+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:49:50.070+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:49:50.409+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:49:50.435+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:49:50.435+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:49:50.597+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:49:50.596+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:49:50.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.587 seconds
+[2026-06-17T12:50:21.014+0000] {processor.py:161} INFO - Started process (PID=525) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:50:21.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:50:21.018+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:50:21.018+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:50:21.307+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:50:21.331+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:50:21.331+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:50:21.480+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:50:21.479+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:50:21.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.502 seconds
+[2026-06-17T12:50:51.619+0000] {processor.py:161} INFO - Started process (PID=531) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:50:51.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:50:51.623+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:50:51.623+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:50:51.961+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:50:51.987+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:50:51.986+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:50:52.005+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:50:52.005+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:50:52.024+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.411 seconds
+[2026-06-17T12:51:22.315+0000] {processor.py:161} INFO - Started process (PID=537) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:51:22.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:51:22.319+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:51:22.318+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:51:22.845+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:51:22.875+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:51:22.875+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:51:22.895+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:51:22.894+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:51:22.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.606 seconds
+[2026-06-17T12:51:53.199+0000] {processor.py:161} INFO - Started process (PID=543) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:51:53.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:51:53.202+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:51:53.202+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:51:53.488+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:51:53.512+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:51:53.512+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:51:53.530+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:51:53.530+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:51:53.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.352 seconds
+[2026-06-17T12:52:23.804+0000] {processor.py:161} INFO - Started process (PID=549) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:52:23.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:52:23.807+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:52:23.807+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:52:24.146+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:52:24.169+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:52:24.169+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:52:24.186+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:52:24.186+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:52:24.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.522 seconds
+[2026-06-17T12:52:54.631+0000] {processor.py:161} INFO - Started process (PID=555) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:52:54.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:52:54.633+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:52:54.633+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:52:54.911+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:52:54.935+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:52:54.935+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:52:55.079+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:52:55.079+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:52:55.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.473 seconds
+[2026-06-17T12:53:25.374+0000] {processor.py:161} INFO - Started process (PID=561) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:53:25.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:53:25.377+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:53:25.377+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:53:25.752+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:53:25.776+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:53:25.776+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:53:25.931+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:53:25.931+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:53:25.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.587 seconds
+[2026-06-17T12:53:56.259+0000] {processor.py:161} INFO - Started process (PID=567) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:53:56.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:53:56.263+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:53:56.263+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:53:56.706+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:53:56.764+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:53:56.764+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:53:56.945+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:53:56.944+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:53:56.976+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.723 seconds
+[2026-06-17T12:54:27.258+0000] {processor.py:161} INFO - Started process (PID=573) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:54:27.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:54:27.261+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:54:27.261+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:54:27.555+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:54:27.579+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:54:27.579+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:54:27.599+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:54:27.599+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:54:27.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.364 seconds
+[2026-06-17T12:54:57.910+0000] {processor.py:161} INFO - Started process (PID=579) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:54:57.911+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:54:57.913+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:54:57.912+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:54:58.207+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:54:58.232+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:54:58.231+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:54:58.250+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:54:58.249+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:54:58.266+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.361 seconds
+[2026-06-17T12:55:28.577+0000] {processor.py:161} INFO - Started process (PID=585) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:55:28.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:55:28.580+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:55:28.580+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:55:28.879+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:55:28.905+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:55:28.905+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:55:28.926+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:55:28.925+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:55:29.089+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.520 seconds
+[2026-06-17T12:55:59.405+0000] {processor.py:161} INFO - Started process (PID=591) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:55:59.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:55:59.408+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:55:59.408+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:55:59.770+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:55:59.797+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:55:59.797+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:55:59.958+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:55:59.957+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:55:59.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.585 seconds
+[2026-06-17T12:56:30.054+0000] {processor.py:161} INFO - Started process (PID=597) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:56:30.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:56:30.056+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:56:30.056+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:56:30.320+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:56:30.344+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:56:30.343+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:56:30.476+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:56:30.476+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:56:30.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.443 seconds
+[2026-06-17T12:57:00.778+0000] {processor.py:161} INFO - Started process (PID=603) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:57:00.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:57:00.781+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:57:00.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:57:01.115+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:57:01.147+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:57:01.146+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:57:01.163+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:57:01.163+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:57:01.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.407 seconds
+[2026-06-17T12:57:31.466+0000] {processor.py:161} INFO - Started process (PID=609) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:57:31.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:57:31.469+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:57:31.468+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:57:31.786+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:57:31.813+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:57:31.812+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:57:31.838+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:57:31.837+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:57:31.858+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.397 seconds
+[2026-06-17T12:58:02.176+0000] {processor.py:161} INFO - Started process (PID=615) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:58:02.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:58:02.178+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:58:02.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:58:02.459+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:58:02.483+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:58:02.482+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:58:02.500+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:58:02.499+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:58:02.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.348 seconds
+[2026-06-17T12:58:32.828+0000] {processor.py:161} INFO - Started process (PID=621) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:58:32.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:58:32.831+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:58:32.831+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:58:33.152+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:58:33.180+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:58:33.180+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:58:33.197+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:58:33.197+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:58:33.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.394 seconds
+[2026-06-17T12:59:03.690+0000] {processor.py:161} INFO - Started process (PID=627) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:59:03.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:59:03.692+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:59:03.692+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:59:04.024+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:59:04.049+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:59:04.049+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:59:04.068+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:59:04.068+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:59:04.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.615 seconds
+[2026-06-17T12:59:34.411+0000] {processor.py:161} INFO - Started process (PID=633) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:59:34.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T12:59:34.414+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:59:34.413+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:59:34.756+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T12:59:34.783+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:59:34.783+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T12:59:34.926+0000] {logging_mixin.py:188} INFO - [2026-06-17T12:59:34.926+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T12:59:34.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.537 seconds
+[2026-06-17T13:00:05.284+0000] {processor.py:161} INFO - Started process (PID=639) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:00:05.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:00:05.287+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:00:05.286+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:00:05.572+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:00:05.714+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:00:05.714+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:00:05.730+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:00:05.730+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:00:05.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.473 seconds
+[2026-06-17T13:00:36.114+0000] {processor.py:161} INFO - Started process (PID=645) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:00:36.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:00:36.119+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:00:36.119+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:00:36.632+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:00:36.665+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:00:36.664+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:00:36.695+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:00:36.695+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:00:36.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.607 seconds
+[2026-06-17T13:01:06.854+0000] {processor.py:161} INFO - Started process (PID=651) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:01:06.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:01:06.857+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:01:06.857+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:01:07.199+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:01:07.222+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:01:07.221+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:01:07.240+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:01:07.240+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:01:07.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.408 seconds
+[2026-06-17T13:01:37.511+0000] {processor.py:161} INFO - Started process (PID=657) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:01:37.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:01:37.514+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:01:37.514+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:01:37.868+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:01:37.891+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:01:37.891+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:01:37.910+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:01:37.910+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:01:38.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.543 seconds
+[2026-06-17T13:02:08.370+0000] {processor.py:161} INFO - Started process (PID=663) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:02:08.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:02:08.373+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:02:08.373+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:02:08.708+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:02:08.734+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:02:08.733+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:02:08.890+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:02:08.889+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:02:08.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.550 seconds
+[2026-06-17T13:02:39.046+0000] {processor.py:161} INFO - Started process (PID=669) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:02:39.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:02:39.049+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:02:39.049+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:02:39.363+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:02:39.387+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:02:39.386+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:02:39.538+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:02:39.538+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:02:39.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.516 seconds
+[2026-06-17T13:03:09.840+0000] {processor.py:161} INFO - Started process (PID=675) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:03:09.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:03:09.842+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:03:09.842+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:03:10.123+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:03:10.283+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:03:10.283+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:03:10.298+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:03:10.298+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:03:10.316+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.481 seconds
+[2026-06-17T13:03:40.641+0000] {processor.py:161} INFO - Started process (PID=681) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:03:40.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:03:40.643+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:03:40.643+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:03:40.934+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:03:40.959+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:03:40.959+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:03:40.980+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:03:40.980+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:03:40.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.361 seconds
+[2026-06-17T13:04:11.302+0000] {processor.py:161} INFO - Started process (PID=687) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:04:11.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:04:11.304+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:04:11.304+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:04:11.578+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:04:11.602+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:04:11.602+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:04:11.620+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:04:11.619+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:04:11.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.342 seconds
+[2026-06-17T13:04:41.934+0000] {processor.py:161} INFO - Started process (PID=693) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:04:41.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:04:41.937+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:04:41.937+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:04:42.293+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:04:42.321+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:04:42.321+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:04:42.345+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:04:42.344+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:04:42.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.608 seconds
+[2026-06-17T13:05:12.863+0000] {processor.py:161} INFO - Started process (PID=699) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:05:12.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:05:12.866+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:05:12.866+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:05:13.166+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:05:13.189+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:05:13.189+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:05:13.340+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:05:13.340+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:05:13.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.504 seconds
+[2026-06-17T13:05:43.440+0000] {processor.py:161} INFO - Started process (PID=705) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:05:43.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:05:43.443+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:05:43.443+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:05:43.736+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:05:43.759+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:05:43.758+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:05:43.908+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:05:43.908+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:05:43.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.492 seconds
+[2026-06-17T13:06:14.232+0000] {processor.py:161} INFO - Started process (PID=711) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:06:14.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:06:14.235+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:06:14.234+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:06:14.607+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:06:14.757+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:06:14.756+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:06:14.784+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:06:14.784+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:06:14.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.580 seconds
+[2026-06-17T13:06:45.134+0000] {processor.py:161} INFO - Started process (PID=717) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:06:45.135+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:06:45.137+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:06:45.137+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:06:45.498+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:06:45.521+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:06:45.521+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:06:45.539+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:06:45.538+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:06:45.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.432 seconds
+[2026-06-17T13:07:15.789+0000] {processor.py:161} INFO - Started process (PID=723) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:07:15.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:07:15.792+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:07:15.792+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:07:16.119+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:07:16.144+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:07:16.143+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:07:16.161+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:07:16.160+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:07:16.181+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.397 seconds
+[2026-06-17T13:07:46.475+0000] {processor.py:161} INFO - Started process (PID=729) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:07:46.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:07:46.479+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:07:46.479+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:07:46.879+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:07:46.908+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:07:46.908+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:07:46.929+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:07:46.929+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:07:47.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.657 seconds
+[2026-06-17T13:08:17.377+0000] {processor.py:161} INFO - Started process (PID=735) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:08:17.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:08:17.381+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:08:17.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:08:17.765+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:08:17.795+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:08:17.795+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:08:17.822+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:08:17.822+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:08:18.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.635 seconds
+[2026-06-17T13:08:48.295+0000] {processor.py:161} INFO - Started process (PID=741) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:08:48.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:08:48.298+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:08:48.297+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:08:48.718+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:08:48.747+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:08:48.747+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:08:48.910+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:08:48.910+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:08:48.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.642 seconds
+[2026-06-17T13:09:19.223+0000] {processor.py:161} INFO - Started process (PID=747) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:09:19.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:09:19.226+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:09:19.225+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:09:19.580+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:09:19.606+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:09:19.606+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:09:19.985+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:09:19.985+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:09:20.035+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.816 seconds
+[2026-06-17T13:09:50.334+0000] {processor.py:161} INFO - Started process (PID=753) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:09:50.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:09:50.343+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:09:50.342+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:09:50.910+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:09:50.937+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:09:50.936+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:09:50.958+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:09:50.958+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:09:50.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.658 seconds
+[2026-06-17T13:10:21.247+0000] {processor.py:161} INFO - Started process (PID=759) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:10:21.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:10:21.260+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:10:21.260+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:10:21.580+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:10:21.608+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:10:21.607+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:10:21.627+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:10:21.627+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:10:21.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.405 seconds
+[2026-06-17T13:10:51.829+0000] {processor.py:161} INFO - Started process (PID=765) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:10:51.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:10:51.834+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:10:51.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:10:52.105+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:10:52.127+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:10:52.127+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:10:52.145+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:10:52.144+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:10:52.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.456 seconds
+[2026-06-17T13:11:22.604+0000] {processor.py:161} INFO - Started process (PID=771) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:11:22.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:11:22.606+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:11:22.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:11:22.916+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:11:22.943+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:11:22.942+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:11:23.106+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:11:23.106+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:11:23.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.533 seconds
+[2026-06-17T13:11:53.442+0000] {processor.py:161} INFO - Started process (PID=777) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:11:53.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:11:53.445+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:11:53.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:11:53.748+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:11:53.771+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:11:53.770+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:11:53.917+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:11:53.917+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:11:53.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.503 seconds
+[2026-06-17T13:12:24.220+0000] {processor.py:161} INFO - Started process (PID=783) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:12:24.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:12:24.223+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:12:24.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:12:24.625+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:12:24.828+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:12:24.827+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:12:24.864+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:12:24.863+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:12:24.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.679 seconds
+[2026-06-17T13:12:55.226+0000] {processor.py:161} INFO - Started process (PID=789) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:12:55.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:12:55.232+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:12:55.231+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:12:55.528+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:12:55.551+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:12:55.551+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:12:55.568+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:12:55.568+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:12:55.587+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.370 seconds
+[2026-06-17T13:13:26.754+0000] {processor.py:161} INFO - Started process (PID=795) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:13:26.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:13:26.776+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:13:26.775+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:13:27.879+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:13:27.943+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:13:27.942+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:13:27.992+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:13:27.991+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:13:28.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 1.278 seconds
+[2026-06-17T13:13:58.099+0000] {processor.py:161} INFO - Started process (PID=801) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:13:58.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:13:58.103+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:13:58.103+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:13:58.535+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:13:58.569+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:13:58.569+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:13:58.596+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:13:58.596+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:13:58.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.714 seconds
+[2026-06-17T13:14:29.336+0000] {processor.py:161} INFO - Started process (PID=807) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:14:29.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:14:29.340+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:14:29.340+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:14:29.994+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:14:30.041+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:14:30.040+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:14:30.238+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:14:30.238+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:14:30.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.932 seconds
+[2026-06-17T13:14:31.769+0000] {processor.py:161} INFO - Started process (PID=813) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:14:31.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:14:31.774+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:14:31.774+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:14:32.270+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:14:32.313+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:14:32.312+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:14:32.522+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:14:32.521+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:14:32.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.818 seconds
+[2026-06-17T13:15:02.723+0000] {processor.py:161} INFO - Started process (PID=819) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:15:02.724+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:15:02.727+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:15:02.726+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:15:03.289+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:15:03.323+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:15:03.322+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:15:03.504+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:15:03.503+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:15:03.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 0.820 seconds
+[2026-06-17T13:15:33.972+0000] {processor.py:161} INFO - Started process (PID=825) to work on /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:15:33.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smartup_etl_dag.py for tasks to queue
+[2026-06-17T13:15:33.983+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:15:33.982+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:15:34.650+0000] {processor.py:840} INFO - DAG(s) 'smartup_etl' retrieved from /opt/airflow/dags/smartup_etl_dag.py
+[2026-06-17T13:15:34.982+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:15:34.981+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-17T13:15:35.040+0000] {logging_mixin.py:188} INFO - [2026-06-17T13:15:35.040+0000] {dag.py:3954} INFO - Setting next_dagrun for smartup_etl to 2026-06-17 02:00:00+00:00, run_after=2026-06-18 02:00:00+00:00
+[2026-06-17T13:15:35.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smartup_etl_dag.py took 1.111 seconds
